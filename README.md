@@ -59,6 +59,7 @@
 ```bash
 git clone <repository-url>
 cd nasa-asteroid-tracker
+```
 
 ### 2. Set Up MySQL
 
@@ -67,17 +68,17 @@ CREATE DATABASE neo_data;
 CREATE USER 'your_username'@'localhost' IDENTIFIED BY 'your_password';
 GRANT ALL PRIVILEGES ON neo_data.* TO 'your_username'@'localhost';
 FLUSH PRIVILEGES;
-
+```
 Update MYSQL_CONFIG in neo_tracking_mysql_ui_adjusted.py with your MySQL host, username, password, and database.
 
 ### 3. Install Dependencies
 ```bash
 pip install requests pandas streamlit mysql-connector-python
+```
 
 ### 4. Obtain NASA API Key
-Register at: https://api.nasa.gov
-
-Replace YOUR_API_KEY in the script with your actual key.
+- Register at: https://api.nasa.gov
+- Replace YOUR_API_KEY in the script with your actual key.
 
 ## ⚙️ Usage
 Run the Script

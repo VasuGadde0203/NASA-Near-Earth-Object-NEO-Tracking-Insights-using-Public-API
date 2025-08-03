@@ -87,7 +87,7 @@ To fetch and store data:
 To launch the Streamlit dashboard:
 - streamlit run neo_tracking_mysql_ui_adjusted.py
 
-### Interact with the Dashboard
+#### Interact with the Dashboard
 - Open your browser and go to: http://localhost:8501
 - Use the left sidebar to:
   - Switch between "Filter Criteria" and "Queries"
